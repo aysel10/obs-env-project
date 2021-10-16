@@ -7,11 +7,16 @@
 
 import SwiftUI
 
+
+
 @main
 struct ObsEnvProjectApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            return ContentView().environmentObject(Counter())
         }
     }
+    
 }
+

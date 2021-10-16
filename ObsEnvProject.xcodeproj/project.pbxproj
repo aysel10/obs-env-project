@@ -11,6 +11,8 @@
 		7DBC6CB9271A280E00992705 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC6CB8271A280E00992705 /* ContentView.swift */; };
 		7DBC6CBB271A281400992705 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DBC6CBA271A281400992705 /* Assets.xcassets */; };
 		7DBC6CBE271A281400992705 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7DBC6CBD271A281400992705 /* Preview Assets.xcassets */; };
+		7DBC6CC7271A2A2800992705 /* Counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC6CC6271A2A2800992705 /* Counter.swift */; };
+		7DBC6CCB271A2BAD00992705 /* FanceScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DBC6CCA271A2BAD00992705 /* FanceScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +22,8 @@
 		7DBC6CBA271A281400992705 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7DBC6CBD271A281400992705 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7DBC6CBF271A281400992705 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7DBC6CC6271A2A2800992705 /* Counter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Counter.swift; sourceTree = "<group>"; };
+		7DBC6CCA271A2BAD00992705 /* FanceScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanceScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		7DBC6CB5271A280E00992705 /* ObsEnvProject */ = {
 			isa = PBXGroup;
 			children = (
-				7DBC6CB6271A280E00992705 /* ObsEnvProjectApp.swift */,
+				7DBC6CC6271A2A2800992705 /* Counter.swift */,
 				7DBC6CB8271A280E00992705 /* ContentView.swift */,
+				7DBC6CB6271A280E00992705 /* ObsEnvProjectApp.swift */,
 				7DBC6CBA271A281400992705 /* Assets.xcassets */,
 				7DBC6CBF271A281400992705 /* Info.plist */,
 				7DBC6CBC271A281400992705 /* Preview Content */,
+				7DBC6CCA271A2BAD00992705 /* FanceScoreView.swift */,
 			);
 			path = ObsEnvProject;
 			sourceTree = "<group>";
@@ -140,6 +146,8 @@
 			files = (
 				7DBC6CB9271A280E00992705 /* ContentView.swift in Sources */,
 				7DBC6CB7271A280E00992705 /* ObsEnvProjectApp.swift in Sources */,
+				7DBC6CC7271A2A2800992705 /* Counter.swift in Sources */,
+				7DBC6CCB271A2BAD00992705 /* FanceScoreView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

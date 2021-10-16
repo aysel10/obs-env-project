@@ -8,14 +8,27 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var counter: Counter
+    
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        VStack{
+            Text("\(self.counter.num)")
+                .font(.largeTitle)
+                .padding()
+            Button("Increment"){
+                self.counter.num += 1
+            }
+            
+            FanceScoreView() // $ - bindable property that i am passing /  self.$counter.num to send value
+        }
+        
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView().environmentObject(Counter())
     }
 }
